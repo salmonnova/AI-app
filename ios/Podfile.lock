@@ -1,0 +1,68 @@
+PODS:
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - TensorFlowLiteC (2.12.0):
+    - TensorFlowLiteC/Core (= 2.12.0)
+  - TensorFlowLiteC/Core (2.12.0)
+  - TensorFlowLiteC/CoreML (2.12.0):
+    - TensorFlowLiteC/Core
+  - TensorFlowLiteC/Metal (2.12.0):
+    - TensorFlowLiteC/Core
+  - TensorFlowLiteSwift (2.12.0):
+    - TensorFlowLiteSwift/Core (= 2.12.0)
+  - TensorFlowLiteSwift/Core (2.12.0):
+    - TensorFlowLiteC (= 2.12.0)
+  - TensorFlowLiteSwift/CoreML (2.12.0):
+    - TensorFlowLiteC/CoreML (= 2.12.0)
+    - TensorFlowLiteSwift/Core (= 2.12.0)
+  - TensorFlowLiteSwift/Metal (2.12.0):
+    - TensorFlowLiteC/Metal (= 2.12.0)
+    - TensorFlowLiteSwift/Core (= 2.12.0)
+  - tflite_flutter (0.0.1):
+    - Flutter
+    - TensorFlowLiteSwift (= 2.12.0)
+    - TensorFlowLiteSwift/CoreML (= 2.12.0)
+    - TensorFlowLiteSwift/Metal (= 2.12.0)
+
+DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - Flutter (from `Flutter`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - tflite_flutter (from `.symlinks/plugins/tflite_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  Flutter:
+    :path: Flutter
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  tflite_flutter:
+    :path: ".symlinks/plugins/tflite_flutter/ios"
+
+SPEC CHECKSUMS:
+  camera_avfoundation: 8b8d780bcfb6a4a02b0fbe2b4bd17b5b71946e68
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  image_picker_ios: 99dfe1854b4fa34d0364e74a78448a0151025425
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+  TensorFlowLiteC: 20785a69299185a379ba9852b6625f00afd7984a
+  TensorFlowLiteSwift: 3a4928286e9e35bdd3e17970f48e53c80d25e793
+  tflite_flutter: 9433d086a3060431bbc9f3c7c20d017db0e72d08
+
+PODFILE CHECKSUM: bcdd71471cc386f2f9c53e1ff4b4c39823e8a2b3
+
+COCOAPODS: 1.12.1
